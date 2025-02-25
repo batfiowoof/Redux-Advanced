@@ -1,4 +1,5 @@
 import { useDispatch } from "react-redux";
+import { useEffect } from "react";
 
 import { cartActions } from "../../store/cart-slice";
 import Card from "../UI/Card";
